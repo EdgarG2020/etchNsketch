@@ -1,13 +1,22 @@
+* {
+    background-color: #004C54;
+}
+
+h1 {
+    color: #ffffff;;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
-    gap: 2px;
+    gap: 1px;
     padding: 10px;
-    background-color: blue;
+    background-color: #000000;
 }
 
 .grid-item {
     background-color: #ffffff;
-    border: 1em solid #cccccc;
+    border: 1em solid #ffffff;
 }
+
