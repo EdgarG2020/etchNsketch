@@ -1,9 +1,17 @@
 * {
     background-color: #004C54;
+    padding: 5px;
 }
 
-h1 {
-    color: #ffffff;;
+.head {
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-container {
